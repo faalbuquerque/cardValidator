@@ -1,14 +1,10 @@
 {
   "name": "cardvalidator",
   "version": "1.0.0",
-  "description": "Sexto projeto da Laboratória - Criação de bibliotecas js (Validador de dados de Cartão de Credito)",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
+  "description": "Validador de dados de cartao de credito",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -21,7 +17,11 @@
   },
   "homepage": "https://github.com/faalbuquerque/cardValidator#readme",
   "dependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^5.16.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
     "nyc": "^14.1.0"
   }
 }
