@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/faalbuquerque/cardValidator/issues"
   },
-  "homepage": "https://github.com/faalbuquerque/cardValidator#readme"
+  "homepage": "https://github.com/faalbuquerque/cardValidator#readme",
+  "dependencies": {
+    "eslint": "^5.16.0"
+  }
 }
