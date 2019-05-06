@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/faalbuquerque/cardValidator#readme",
   "dependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "nyc": "^14.1.0"
   }
 }
