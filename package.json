@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/faalbuquerque/cardValidator.git"
+    "url": "https://github.com/faalbuquerque/cardValidator.git"
   },
   "author": "Fabiane Albuquerque",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/faalbuquerque/cardValidator/issues"
   },
-  "homepage": "https://github.com/faalbuquerque/cardValidator#readme",
+  "homepage": "https://faalbuquerque.github.io/cardValidator",
   "dependencies": {
     "eslint": "^5.16.0"
   },

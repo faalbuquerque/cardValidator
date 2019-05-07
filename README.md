@@ -3,20 +3,23 @@
 Esta biblioteca verifica se números de cartão de crédito são válidos ou inválidos, devendo retornar *true* para válidos e *false* para inválidos.
 
 ### Instalação:
-```
+
 Para instalar a biblioteca é necessario digitar o comando:
+```
 $  npm install cardvalidatorfabi
 ```
 
 ### Utilização:
-```
-Para utilizar a biblioteca é necessário chamar a função cardValidator() utilizando os comandos abaixo:
 
+Para utilizar a biblioteca é necessário chamar a função cardValidator() utilizando os comandos abaixo:
+```
 //Criar const e requisitar a biblioteca para acessa-la:
 > const enterCard = require("cardvalidatorfabi");
-
+```
+```
 //Chamar a função cardValidator() através da const:
 > enterCard.cardValidator("5242150898936398")
+//Nesse exemplo o cartão é valido e deve retornar true.
 ```
 ### Sobre o Projeto:
 
