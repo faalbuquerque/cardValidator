@@ -29,6 +29,6 @@ Foram utilizadas as ferramentas do NPM Mocha, Chai e Nyc para efetuar testes e E
 
 ### Roadmap oficial do projeto
 
-#### versão 1.0.0 (released)
+#### versão 1.0.1 (released)
 
 **Funcionalidade:** Verificar se números de cartão de crédito são válidos ou inválidos através de uma função em JavaScript, esta função deve retornar *true* para números de cartão válidos e *false* para números de cartão inválidos.
