@@ -1,5 +1,5 @@
 {
-  "name": "cardvalidator",
+  "name": "cardvalidatorfabi",
   "version": "1.0.0",
   "description": "Credit Card numbers validator",
   "main": "./lib/index.js",
