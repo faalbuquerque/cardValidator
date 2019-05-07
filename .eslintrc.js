@@ -52,7 +52,7 @@ module.exports = {
         ],
         'no-multiple-empty-lines': [
             'error',
-            { 'max': 1 }
+            'never'
         ],
         'padded-blocks': [
             'error',

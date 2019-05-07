@@ -2,7 +2,7 @@
 
 Esta biblioteca verifica se números de cartão de crédito são válidos ou inválidos, devendo retornar *true* para válidos e *false* para inválidos.
 
-A aplicação foi desenvolvida em javaScript utilizando a logica do <a href="http://www.datagenetics.com/blog/july42013/index.html"> Algoritmo de Luhn</a> para fazer a validacao.
+A aplicação foi desenvolvida em javaScript utilizando a logica do Algoritmo de Luhn, caso queira entender a logica clique <a href="http://www.datagenetics.com/blog/july42013/index.html"> aqui </a> para fazer a validacao.
 
 ### Instalação:
 ```
@@ -18,7 +18,7 @@ Para utilizar a biblioteca é necessário chamar a função cardValidator() util
 > const enterCard = require("cardvalidatorfabi");
 
 //Chamar a função cardValidator() através da const:
-> enterCard.cardValidator("digitar número do cartão aqui")
+> enterCard.cardValidator("5242150898936398")
 ```
 
 ### Roadmap oficial do projeto
