@@ -6,7 +6,7 @@ Esta biblioteca verifica se números de cartão de crédito são válidos ou inv
 
 Para instalar a biblioteca é necessario digitar o comando:
 ```
-$  npm install cardvalidatorfabi
+$  npm i cardvalidatorfabi
 ```
 
 ### Utilização:

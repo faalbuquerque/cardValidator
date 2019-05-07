@@ -12,7 +12,7 @@ describe('Testes da funcao cardValidator', () => {
 
     it('Se o numero do cartao for maior que o necessario deve retornar false', () => {
 	
-        assert.equal(cardTest('45321171124791190'), false);
+        assert.equal(cardTest('645321171124791190'), false);
 		
     });
 
@@ -46,5 +46,16 @@ describe('Testes da funcao cardValidator', () => {
 		
     });
 
-    
+    it('Se forem digitados numeros iguais retornar false', () => {
+	
+        assert.equal(cardTest('2222222222222222'), false);
+		
+    });
+
+    it('Se nada for digitado deve retornar false', () => {
+	
+        assert.equal(cardTest(''), false);
+		
+    });
+
 });

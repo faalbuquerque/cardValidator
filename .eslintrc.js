@@ -48,7 +48,7 @@ module.exports = {
         ],
         'func-call-spacing': [
             'error',
-            { 'max': 1 }
+            'never'
         ],
         'no-multiple-empty-lines': [
             'error',
